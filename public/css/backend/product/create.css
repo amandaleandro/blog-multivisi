@@ -1,0 +1,103 @@
+.item_menu {
+    color: #bdbdbd;
+    background: #fff;
+}
+
+.item_menu:hover{
+    background: #f1f1f1;
+    color: #333;
+    border: 1px solid #dee2e6;
+}
+.item_menu:focus{
+    background: #007bff;
+}
+.item_menu:hover::before{
+    content: "";
+    animation-delay: 20s;
+    position: absolute;
+    top: calc((100% - 10px) / 2);
+    left: -5px;
+    transform: rotate(-45deg);
+    background: #f1f1f1;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+}
+.item_menu:focus::before{
+    content: "";
+    animation-delay: 20s;
+    position: absolute;
+    top: calc((100% - 10px) / 2);
+    animation: mymove .3s;
+    animation-fill-mode: forwards;
+    transform: rotate(-45deg);
+    background: #007bff;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+}
+.item_menu:focus{
+    color: #fff;
+}
+
+
+.tag-container {
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.tag-container .tag {
+  height: 30px;
+  margin: 5px;
+  padding: 5px 6px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  cursor: default;
+}
+.tag i {
+  font-size: 12px;
+  color: #666;
+  margin-left: 5px;
+}
+.tag-container input {
+  padding: 5px;
+  font-size: 16px;
+  border: 0;
+  outline: none;
+  font-family: 'Rubik';
+  color: #333;
+  flex: 1;
+}
+
+kbd {
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+    color: #333;
+    display: inline-block;
+    font-size: .85em;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px 4px;
+    white-space: nowrap;
+   }
+
+   .datepicker.dropdown-menu{
+     min-width: 320px!important;
+   }
+   .datepicker table{
+     width: 100%!important;
+   }
+@keyframes mymove {
+    from {left: 5px;}
+    to {left: -5px;}
+  }

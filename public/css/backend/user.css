@@ -1,0 +1,18 @@
+.coverbg{
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    width: 160px;
+    height: 160px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    background-position: center!important;
+    background-color: #fff!important;
+}

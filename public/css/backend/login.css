@@ -1,0 +1,65 @@
+
+.shadow-lg{
+    box-shadow: 0 1rem 3rem rgba(139, 152, 216, 0.175)!important;
+}
+form{
+    z-index: 1;
+}
+
+h2{
+    color: #333;
+    font-weight: 600;
+}
+.forget{
+    font-size: 12px;
+    font-weight: 500;
+}
+input[type="email"],
+input[type="password"]{
+    font-size: 15px;
+}
+input[type="submit"]{
+    font-weight: 600;
+    background: #3682d9;
+    color: #fff;
+}
+input[type="submit"]:hover{
+    background: #2b6eba;
+    transition: .3s;
+    color: #fff;
+    text-shadow: 1px 1px 18px #fff
+}
+
+.terms{
+    font-size: 11px;
+    font-weight: 500;
+}
+body canvas{
+    display: none!important
+}
+
+#particles-js canvas{
+    display: block!important
+}
+
+canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container ---- */ #particles-js{ top: 0; position:absolute; width: 100%; height: 100%; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } /* ---- stats.js ---- */ .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 1.1em; } #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
+
+.loading{
+    height: 8px;
+    animation-name: loadingsping;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #2b6eba;
+    
+}
+
+@keyframes loadingsping{
+    0%   { width: 0;}
+    25%  { width: 25%;}
+    50%  { width: 50%;}
+    75%  { width: 75%;}
+    100% { width: 100%;}
+}

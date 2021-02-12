@@ -1,0 +1,15 @@
+.table td, .table th{
+    font-size: 14px;
+    border: 0;
+}
+.table thead th{
+    border-bottom: none;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.trash:hover{
+    color: #dc3545!important;
+}

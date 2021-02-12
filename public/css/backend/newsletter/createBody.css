@@ -1,0 +1,7 @@
+.aligns{
+    display: none;
+}
+
+.title_newsletter:focus ~ .aligns{
+    display: block;
+}

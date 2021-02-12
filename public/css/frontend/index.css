@@ -1,0 +1,93 @@
+.pagecards{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pagecards .card{
+    width: 276px;
+    height: 390px;
+    margin: 15px 0;
+    border-radius: 18px!important;
+    position: relative;
+    border: 0;
+    justify-content: center;
+    background: #ffffff;
+}
+.pagecards .card .card-img-top{
+    width: 100%;
+    transition: ease-in .5s;
+    border-radius:18px 18px 0 0;
+}
+.pagecards .card  .botao{
+    position: absolute;
+    top: 35%;
+    color: #0D66BD;
+    text-transform: uppercase;
+    border: 2px solid #006FCF;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 50%;
+    text-align: center;
+    padding: 5px 10px;
+    font-weight: 600;
+    z-index: -1;
+    font-size: 14px;
+    left: 25%;
+}
+.pagecards .card .card-body{
+    padding:14px;
+    border-radius: 0 0px 18px 18px;
+}
+.pagecards .card .card-body .categoria{
+    color:#0D66BD;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+.pagecards .card .card-body h3{
+    font-size:17px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.pagecards .card .card-body .data{
+    font-size: 15px;
+    color:#909090;
+}
+.efeito{
+    transform: scaleY(1.68);
+    position: relative;
+    opacity: 0.3;
+    border-radius: 10px !important;
+    transition: ease-in .3s;
+    top: 79px;
+    z-index: 1;
+    margin: 0;
+} 
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.page-link{
+    background-color: transparent !important;
+    border: none !important;
+    font-size: 20px;
+    outline: none;
+}
+.page-item{
+    margin: 0 10px;
+}
+.page-item a{
+    color: #0D66BD;
+    font-weight: 600;
+}
+@media(min-width:48em){
+    .pagecards{
+        justify-content: space-between;
+    }
+    .pagecards .card{
+        flex: 0 0 24%;
+    }
+    
+}

@@ -1,0 +1,49 @@
+.menu-left ul{
+    list-style: none;
+}
+.menu-left ul li:hover{
+   
+    transition: .2s all
+}
+.menu-left ul li a{
+    font-weight: 500;
+    color: #000;
+    font-size: 14px
+}
+.menu-left ul li ul li a{
+    font-size: 13px;
+    
+}
+.menu-left ul li ul li a:hover{
+    font-weight: bold;
+}
+
+.linksmenu li:hover{
+    background:#f7f7f7
+}
+
+.alertcount{
+    top: 10px;
+    left: 84px;
+    font-size: 11px;
+    padding: 0 5px;
+    min-width: 28px; 
+}
+.alertnew{
+    top: 19px;
+    left: 95px;
+    font-size: 11px;
+    padding: 0 5px;
+    min-width: 28px;
+}
+
+.drop i,
+.dropp i{
+    float: right;
+    line-height: 20px;
+    font-size: 11px;
+    transition: .2s all;
+}
+.actions{
+    font-size: 14px;
+}

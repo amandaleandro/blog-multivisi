@@ -1,0 +1,21 @@
+.menu-bar form input,
+.menu-bar form button{
+    border-radius: 0
+}
+
+.menu-bar ul li a{
+    color: #98a6ad;
+}
+
+.menu-bar .list-drop{
+    font-size: 14px;
+    font-weight: 500;
+    color: #98a6ad;
+    cursor:pointer
+}
+.menu-bar .list-drop a:hover{
+    color:#000!important;
+}
+.menu-bar .list-drop a:hover img{
+    filter: invert(1)
+}
