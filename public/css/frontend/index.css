@@ -13,10 +13,11 @@
     border: 0;
     justify-content: center;
     background: #ffffff;
+    overflow: hidden;
 }
 .pagecards .card .card-img-top{
     width: 100%;
-    transition: ease-in .5s;
+    transition: ease-in .01s;
     border-radius:18px 18px 0 0;
 }
 .pagecards .card  .botao{
@@ -32,12 +33,14 @@
     padding: 5px 10px;
     font-weight: 600;
     z-index: -1;
-    font-size: 14px;
+    font-size: 15px;
     left: 25%;
+    padding: 10px;
 }
 .pagecards .card .card-body{
     padding:14px;
     border-radius: 0 0px 18px 18px;
+ 
 }
 .pagecards .card .card-body .categoria{
     color:#0D66BD;
@@ -55,19 +58,19 @@
     color:#909090;
 }
 .efeito{
-    transform: scaleY(1.68);
     position: relative;
-    opacity: 0.3;
-    border-radius: 10px !important;
-    transition: ease-in .3s;
+    opacity: 0.2;
+    border-radius: 14px !important;
+    transition: .7s;
     top: 79px;
     z-index: 1;
     margin: 0;
+    transform: scale(1.0, 1.68);
 } 
 .pagination{
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
+   padding: 20px 0;
 }
 .page-link{
     background-color: transparent !important;
@@ -85,6 +88,7 @@
 @media(min-width:48em){
     .pagecards{
         justify-content: space-between;
+        padding: 0;
     }
     .pagecards .card{
         flex: 0 0 24%;
