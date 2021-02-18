@@ -12,6 +12,7 @@
     width: 20px;
     height: 20px;
     top: -19px;
+    cursor: pointer;
 }
 .pesquisar .fechar{
     z-index: 2;
@@ -20,6 +21,7 @@
     right: 18px;
     display: none;
     width: 11px;
+    cursor: pointer;
 }
 .pesquisar .pesquisa{
     width: 0;
@@ -73,6 +75,7 @@
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
+color:#373435;
 }
 .page_resultado .post .info-post .description{
     font-weight: normal;
